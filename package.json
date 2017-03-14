@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/izatop/edmx-reader.git"
+    "url": "git+https://github.com/izatop/edmx-typescript-generator.git"
   },
   "publishConfig": {
     "registry": "http://registry.npmjs.org"
