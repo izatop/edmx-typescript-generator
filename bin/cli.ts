@@ -2,7 +2,7 @@ import {parse} from 'url';
 import {createReadStream, createWriteStream} from 'fs';
 import {get as httpGet} from 'http';
 import {get as httpsGet} from 'https';
-import {Generator} from '../generator';
+import {Generator} from '../generator/generator';
 
 const [,,input, output]: string[] = process.argv;
 const error = (str) => {
