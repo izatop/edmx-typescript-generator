@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import {parse} from 'url';
 import {createReadStream, createWriteStream} from 'fs';
 import {get as httpGet} from 'http';
